@@ -4,6 +4,7 @@ $white:                                 #fff;
 
 /* Brand Colours */
 $blue:                                  #19388a;
+$lightBlue:                             #b2ebf7;
 $grey:                                  #d2e1f0;
 $gold:                                  #f2d430;
 $teal:                                  #00aee1;
@@ -20,3 +21,10 @@ $priceBackgroundColour:                 $gold;
 
 $primaryTextColour:                     $white;
 $bannerTextColour:                      $blue;
+
+/* Button Variables */
+$buttonBackgroundColour:                $lightBlue;
+$buttonTextColour:                      $teal;
+
+$activeButtonBackgroundColour:          $teal;
+$activeButtonTextColour:                $white;

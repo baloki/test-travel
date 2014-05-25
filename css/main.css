@@ -3,12 +3,15 @@
 /* Brand Colours */
 /* Page Variables */
 /* Container Variables */
+/* Button Variables */
 body {
   margin: 0;
   padding: 0;
   background: white url("../images/background.jpg") no-repeat scroll top center;
   background-size: 100%;
-  color: white; }
+  color: white;
+  font-size: 12pt;
+  font-family: "ariel", sans-serif; }
   body a, body a:active,
   body a:visited,
   body a:link, body a:hover {
@@ -16,5 +19,33 @@ body {
     color: white; }
   body a:hover {
     color: #f2d430; }
+  body #container {
+    margin: 2em auto;
+    width: 100%;
+    max-width: 460px; }
 
 /* Sections */
+#sortMenu {
+  text-align: center; }
+  #sortMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    #sortMenu ul li {
+      display: inline-block;
+      width: 32%; }
+      #sortMenu ul li div.button {
+        font-size: 0.9em;
+        background-color: #b2ebf7;
+        color: #00aee1;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 1em 0.5em;
+        -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+        box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+        cursor: pointer;
+        cursor: hand; }
+        #sortMenu ul li div.button.active {
+          background-color: #00aee1;
+          color: white; }

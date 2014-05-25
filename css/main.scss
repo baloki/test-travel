@@ -1,7 +1,8 @@
 /* SASS Variables and Mixins */
-@import 'variables';
-@import 'mixins';
+@import 'variables';            // SASS Variables
+@import 'mixins';               // SASS Mixins
 
-@import 'page_styles';
+@import 'page_styles';          // General HTML Styles plus Container Styles
 
 /* Sections */
+@import 'contents_sortmenu';    // Styles for Sort Menu
