@@ -27,6 +27,11 @@
                     color: $activeButtonTextColour;
                 }
 
+                &:hover {
+                    background-color: $activeButtonBackgroundColour;
+                    color: $activeButtonTextColour;
+                }
+
             }
 
             @media (max-width: 500px) {

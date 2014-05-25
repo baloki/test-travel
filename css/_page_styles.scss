@@ -27,9 +27,45 @@ body {
         color: $hoverLinkColour;
     }
 
+    h1 {
+        line-height: 1.4em;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        @extend h1;
+        font-size: 1em;
+    }
+
+    h3 {
+        @extend h1;
+        font-size: 0.75em;
+    }
+
+    h4 {
+        @extend h3;
+        font-weight: normal;
+    }
+
+    /* Container Class */
     #container {
         margin: 2em auto;
         width: 100%;
         max-width: 460px;
     }
+
+    /* Various Helper Classes */
+    .star {
+        background: transparent url('../images/star.png') repeat-x top left;
+        height: 14px;
+        display: inline-block;
+    }
+
+        .star-5 { @extend .star; width: 80px; }
+        .star-4 { @extend .star; width: 80px; }
+        .star-3 { @extend .star; width: 80px; }
+        .star-2 { @extend .star; width: 80px; }
+        .star-1 { @extend .star; width: 16px; }
+
 }

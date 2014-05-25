@@ -1,0 +1,92 @@
+.listing {
+    background-color: $backgroundColour;
+    margin: 2em 0.4em;
+    @include box-shadow();
+
+    position: relative;
+
+    img {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        display: block;
+        background-color: $bannerBackgroundColour;
+        color: $bannerTextColour;
+
+        .left {
+            width: 66%;
+            float: left;
+
+            padding: 2% 3%;
+        }
+
+        .right {
+            width: 20%;
+            float: right;
+
+            padding: 2% 3%;
+            background-color: $priceBackgroundColour;
+            text-align: right;
+            border-left: 2px solid $blue;
+        }
+
+    }
+
+    .moreinfo {
+        background-color: $linkBannerBackgroundColour;
+        background-image: url('../images/arrow_close.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        margin: -0.5em 0 0;
+        padding: 0.1em 0.8em;
+
+        font-size: 0.9em;
+
+        &.active {
+            background-image: url('../images/arrow_open.png');
+        }
+
+        p {
+            max-width: 90%;
+        }
+
+    }
+
+    .listing_detail {
+        padding: 0.1em 0.8em;
+
+        font-size: 0.8em;
+
+        display: none;
+
+            input {
+                margin: 0 auto;
+                text-align: center;
+                font-size: 1.3em;
+                font-weight: bold;
+                text-transform: uppercase;
+                display: block;
+
+                width: 150px;
+
+                background-color: $blue;
+                color: $white;
+                border: 0;
+                border-radius: 3px;
+
+                padding: 0.5em 1em;
+
+                @include box-shadow();
+            }
+
+    }
+
+}
