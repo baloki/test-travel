@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: $pageBackgroundColour url('../images/background.jpg') no-repeat scroll top center;
+    background-size: 100%;
+
+    color: $primaryTextColour;
+
+    a {
+        text-decoration: none;
+        color: $linkColour;
+    }
+
+    a:active,
+    a:visited,
+    a:link {
+        @extend a;
+    }
+
+    a:hover {
+        @extend a;
+
+        color: $hoverLinkColour;
+    }
+}
