@@ -62,10 +62,10 @@ body {
         display: inline-block;
     }
 
-        .star-5 { @extend .star; width: 80px; }
-        .star-4 { @extend .star; width: 80px; }
-        .star-3 { @extend .star; width: 80px; }
-        .star-2 { @extend .star; width: 80px; }
+        .star-5 { @extend .star; width: 16px * 5; }
+        .star-4 { @extend .star; width: 16px * 4; }
+        .star-3 { @extend .star; width: 16px * 3; }
+        .star-2 { @extend .star; width: 16px * 2; }
         .star-1 { @extend .star; width: 16px; }
 
 }

@@ -42,11 +42,11 @@ body {
   body .star-5 {
     width: 80px; }
   body .star-4 {
-    width: 80px; }
+    width: 64px; }
   body .star-3 {
-    width: 80px; }
+    width: 48px; }
   body .star-2 {
-    width: 80px; }
+    width: 32px; }
   body .star-1 {
     width: 16px; }
 
@@ -106,21 +106,29 @@ body {
       width: 66%;
       float: left;
       padding: 2% 3%; }
+      .listing .banner .left h2 {
+        line-height: 1em; }
     .listing .banner .right {
       width: 20%;
+      height: 100%;
       float: right;
-      padding: 2% 3%;
+      padding: 3% 3%;
       background-color: #f2d430;
       text-align: right;
       border-left: 2px solid #19388a; }
+      .listing .banner .right h2 {
+        font-size: 1.1em; }
   .listing .moreinfo {
     background-color: #00aee1;
+    color: white;
     background-image: url("../images/arrow_close.png");
     background-repeat: no-repeat;
     background-position: center right;
     margin: -0.5em 0 0;
     padding: 0.1em 0.8em;
-    font-size: 0.9em; }
+    font-size: 0.9em;
+    cursor: pointer;
+    cursor: hand; }
     .listing .moreinfo.active {
       background-image: url("../images/arrow_open.png"); }
     .listing .moreinfo p {
