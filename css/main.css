@@ -49,3 +49,7 @@ body {
         #sortMenu ul li div.button.active {
           background-color: #00aee1;
           color: white; }
+      @media (max-width: 500px) {
+        #sortMenu ul li {
+          display: block;
+          width: 100%; } }

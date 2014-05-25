@@ -26,6 +26,12 @@
                     background-color: $activeButtonBackgroundColour;
                     color: $activeButtonTextColour;
                 }
+
+            }
+
+            @media (max-width: 500px) {
+                display: block;
+                width: 100%;
             }
 
         }
